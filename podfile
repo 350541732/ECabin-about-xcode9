@@ -1,0 +1,14 @@
+use_frameworks!
+target:ECabin do
+pod 'Alamofire'
+pod 'FMDB/SQLCipher'
+pod 'MJExtension'
+pod 'SVProgressHUD'
+pod 'SnapKit', '~> 3.2.0'
+pod 'ReachabilitySwift'
+pod 'NightNight'
+pod 'MJRefresh'
+pod 'SDWebImage'
+pod 'IQKeyboardManagerSwift'
+pod 'FSPagerView'
+end 

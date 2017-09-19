@@ -7,21 +7,115 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		180A77441F283C5D00914574 /* LineLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180A77431F283C5D00914574 /* LineLayout.swift */; };
+		180A77461F283CF300914574 /* ImageTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180A77451F283CF300914574 /* ImageTextCell.swift */; };
+		181954051F68C84800F03DB0 /* DisplayDateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181954041F68C84800F03DB0 /* DisplayDateController.swift */; };
+		1821FBC31F64E202008B7147 /* PassengerSeatChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1821FBC21F64E202008B7147 /* PassengerSeatChartView.swift */; };
 		183B81C71F05DA5A00BF58A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183B81C61F05DA5A00BF58A0 /* AppDelegate.swift */; };
-		183B81C91F05DA5A00BF58A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183B81C81F05DA5A00BF58A0 /* ViewController.swift */; };
 		183B81CC1F05DA5A00BF58A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 183B81CA1F05DA5A00BF58A0 /* Main.storyboard */; };
 		183B81CE1F05DA5A00BF58A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 183B81CD1F05DA5A00BF58A0 /* Assets.xcassets */; };
 		183B81D11F05DA5A00BF58A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 183B81CF1F05DA5A00BF58A0 /* LaunchScreen.storyboard */; };
+		183B81DA1F05DBA100BF58A0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183B81D81F05DBA100BF58A0 /* LoginViewController.swift */; };
+		183B81DB1F05DBA100BF58A0 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 183B81D91F05DBA100BF58A0 /* LoginViewController.xib */; };
+		183C2C0A1F5FA0FD00FC9547 /* HighEndPassengerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183C2C091F5FA0FD00FC9547 /* HighEndPassengerCell.swift */; };
+		1842E3481F60F39800BE5E1C /* HIghtEndPassengerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1842E3471F60F39800BE5E1C /* HIghtEndPassengerView.swift */; };
+		1842E34A1F61292100BE5E1C /* PassengerVotageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1842E3491F61292100BE5E1C /* PassengerVotageViewController.swift */; };
+		184828751F6A148700A3DC80 /* FlightDynamicsSecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184828741F6A148700A3DC80 /* FlightDynamicsSecondView.swift */; };
+		184828781F6A1E9000A3DC80 /* FlightPlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184828771F6A1E9000A3DC80 /* FlightPlanView.swift */; };
+		184CC8B41F5CD724008519B5 /* PassengerofSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184CC8B31F5CD724008519B5 /* PassengerofSort.swift */; };
+		184CC8B61F5CD808008519B5 /* PassengerSortCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184CC8B51F5CD808008519B5 /* PassengerSortCell.swift */; };
+		184CC8B81F5CF176008519B5 /* SectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184CC8B71F5CF176008519B5 /* SectionHeaderView.swift */; };
+		1851FC7A1F6246DB0044BF4A /* CabinSeatForFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1851FC791F6246DB0044BF4A /* CabinSeatForFour.swift */; };
+		1851FC7C1F6247000044BF4A /* CabinSeatForSix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1851FC7B1F6247000044BF4A /* CabinSeatForSix.swift */; };
+		1851FC7E1F627F350044BF4A /* CabinSeatForFourCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1851FC7D1F627F350044BF4A /* CabinSeatForFourCell.swift */; };
+		1851FC801F627F500044BF4A /* CabinSeatForSixCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1851FC7F1F627F500044BF4A /* CabinSeatForSixCell.swift */; };
+		1858643A1F43E3D60002FAE1 /* EcabinFunctionTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185864391F43E3D60002FAE1 /* EcabinFunctionTableView.swift */; };
+		1858643E1F443A360002FAE1 /* LeeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1858643D1F443A360002FAE1 /* LeeButton.swift */; };
+		1866650A1F41B69500EC411C /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186665091F41B69500EC411C /* HeaderView.swift */; };
+		186E62221F39A6350014FEA1 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186E62211F39A6350014FEA1 /* MenuViewController.swift */; };
+		18724DC61F57F21C00E380E6 /* Passenger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18724DC51F57F21C00E380E6 /* Passenger.swift */; };
+		18724DCA1F59344100E380E6 /* PassengerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18724DC91F59344100E380E6 /* PassengerCell.swift */; };
+		188385891F666829001AB345 /* FlightDynamicsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188385881F666829001AB345 /* FlightDynamicsView.swift */; };
+		188952391F6A651B00E4DB34 /* FlightDynamicsSecondViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188952381F6A651B00E4DB34 /* FlightDynamicsSecondViewCell.swift */; };
+		189BB3AF1F3BE96100CB15FB /* UserManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189BB3AE1F3BE96100CB15FB /* UserManger.swift */; };
+		189BB3B11F3BE97E00CB15FB /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189BB3B01F3BE97E00CB15FB /* User.swift */; };
+		189BB3B41F3BFEA000CB15FB /* Remember.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189BB3B31F3BFEA000CB15FB /* Remember.swift */; };
+		189BB3B61F3C0EEE00CB15FB /* MD5Tool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189BB3B51F3C0EEE00CB15FB /* MD5Tool.swift */; };
+		189BB3BB1F3C2FCF00CB15FB /* PassengerInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189BB3BA1F3C2FCF00CB15FB /* PassengerInfoViewController.swift */; };
+		189BB3BF1F3C3F8B00CB15FB /* NetWorkState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189BB3BE1F3C3F8B00CB15FB /* NetWorkState.swift */; };
+		18A814291F5E52E90084A825 /* FlightInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A814281F5E52E90084A825 /* FlightInfoView.swift */; };
+		18A8142C1F5E80980084A825 /* HighEndHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A8142B1F5E80980084A825 /* HighEndHeader.swift */; };
+		18A8142E1F5E8E3E0084A825 /* PassengerDetailInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A8142D1F5E8E3E0084A825 /* PassengerDetailInfoView.swift */; };
+		18F63C091F3D3C7400B278D6 /* SearchFlightNoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F63C081F3D3C7400B278D6 /* SearchFlightNoView.swift */; };
+		18F63C0D1F3D9CFA00B278D6 /* LocalFlightInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F63C0C1F3D9CFA00B278D6 /* LocalFlightInfo.swift */; };
+		18F63C111F3DAA2800B278D6 /* FlightInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F63C0F1F3DAA2800B278D6 /* FlightInfoCell.swift */; };
+		18F63C121F3DAA2800B278D6 /* FlightInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18F63C101F3DAA2800B278D6 /* FlightInfoCell.xib */; };
+		18F6D6A01F42C42D0038D085 /* FlightDetailInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F6D69F1F42C42D0038D085 /* FlightDetailInfoView.swift */; };
+		18F6D6A31F42C7A00038D085 /* CabinInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F6D6A21F42C7A00038D085 /* CabinInfoCell.swift */; };
+		18F6D6A51F42DA440038D085 /* ColorWithString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F6D6A41F42DA440038D085 /* ColorWithString.swift */; };
+		18F6D6A71F42E3520038D085 /* DetailHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F6D6A61F42E3520038D085 /* DetailHeader.swift */; };
+		18F6D6A91F42F9A20038D085 /* DetailFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F6D6A81F42F9A20038D085 /* DetailFooter.swift */; };
+		EAD28CEBBD3C3ED7F734FC32 /* Pods_ECabin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2064BC94EE2042FE692574E /* Pods_ECabin.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		180A77431F283C5D00914574 /* LineLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineLayout.swift; sourceTree = "<group>"; };
+		180A77451F283CF300914574 /* ImageTextCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageTextCell.swift; sourceTree = "<group>"; };
+		181954041F68C84800F03DB0 /* DisplayDateController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayDateController.swift; sourceTree = "<group>"; };
+		1821FBC21F64E202008B7147 /* PassengerSeatChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PassengerSeatChartView.swift; sourceTree = "<group>"; };
 		183B81C31F05DA5A00BF58A0 /* ECabin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ECabin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		183B81C61F05DA5A00BF58A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		183B81C81F05DA5A00BF58A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		183B81CB1F05DA5A00BF58A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		183B81CD1F05DA5A00BF58A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		183B81D01F05DA5A00BF58A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		183B81D21F05DA5A00BF58A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		183B81D81F05DBA100BF58A0 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		183B81D91F05DBA100BF58A0 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		183C2C091F5FA0FD00FC9547 /* HighEndPassengerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HighEndPassengerCell.swift; sourceTree = "<group>"; };
+		1842E3471F60F39800BE5E1C /* HIghtEndPassengerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HIghtEndPassengerView.swift; sourceTree = "<group>"; };
+		1842E3491F61292100BE5E1C /* PassengerVotageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PassengerVotageViewController.swift; sourceTree = "<group>"; };
+		184828741F6A148700A3DC80 /* FlightDynamicsSecondView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightDynamicsSecondView.swift; sourceTree = "<group>"; };
+		184828771F6A1E9000A3DC80 /* FlightPlanView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightPlanView.swift; sourceTree = "<group>"; };
+		184CC8B31F5CD724008519B5 /* PassengerofSort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PassengerofSort.swift; sourceTree = "<group>"; };
+		184CC8B51F5CD808008519B5 /* PassengerSortCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PassengerSortCell.swift; sourceTree = "<group>"; };
+		184CC8B71F5CF176008519B5 /* SectionHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionHeaderView.swift; sourceTree = "<group>"; };
+		1851FC791F6246DB0044BF4A /* CabinSeatForFour.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CabinSeatForFour.swift; sourceTree = "<group>"; };
+		1851FC7B1F6247000044BF4A /* CabinSeatForSix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CabinSeatForSix.swift; sourceTree = "<group>"; };
+		1851FC7D1F627F350044BF4A /* CabinSeatForFourCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CabinSeatForFourCell.swift; sourceTree = "<group>"; };
+		1851FC7F1F627F500044BF4A /* CabinSeatForSixCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CabinSeatForSixCell.swift; sourceTree = "<group>"; };
+		185864391F43E3D60002FAE1 /* EcabinFunctionTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EcabinFunctionTableView.swift; sourceTree = "<group>"; };
+		1858643D1F443A360002FAE1 /* LeeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeeButton.swift; sourceTree = "<group>"; };
+		186665091F41B69500EC411C /* HeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		186E62211F39A6350014FEA1 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		18724DC51F57F21C00E380E6 /* Passenger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Passenger.swift; sourceTree = "<group>"; };
+		18724DC91F59344100E380E6 /* PassengerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PassengerCell.swift; sourceTree = "<group>"; };
+		188385881F666829001AB345 /* FlightDynamicsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightDynamicsView.swift; sourceTree = "<group>"; };
+		188952381F6A651B00E4DB34 /* FlightDynamicsSecondViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightDynamicsSecondViewCell.swift; sourceTree = "<group>"; };
+		189BB3AE1F3BE96100CB15FB /* UserManger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserManger.swift; sourceTree = "<group>"; };
+		189BB3B01F3BE97E00CB15FB /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		189BB3B31F3BFEA000CB15FB /* Remember.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Remember.swift; sourceTree = "<group>"; };
+		189BB3B51F3C0EEE00CB15FB /* MD5Tool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MD5Tool.swift; sourceTree = "<group>"; };
+		189BB3B71F3C108C00CB15FB /* bridgeHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = bridgeHeader.h; path = ../bridgeHeader.h; sourceTree = "<group>"; };
+		189BB3BA1F3C2FCF00CB15FB /* PassengerInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PassengerInfoViewController.swift; sourceTree = "<group>"; };
+		189BB3BE1F3C3F8B00CB15FB /* NetWorkState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetWorkState.swift; sourceTree = "<group>"; };
+		189E55E11F6FB88400028634 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		189E55E31F6FB88F00028634 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		189E55FB1F6FD16000028634 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		18A814281F5E52E90084A825 /* FlightInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightInfoView.swift; sourceTree = "<group>"; };
+		18A8142B1F5E80980084A825 /* HighEndHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HighEndHeader.swift; sourceTree = "<group>"; };
+		18A8142D1F5E8E3E0084A825 /* PassengerDetailInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PassengerDetailInfoView.swift; sourceTree = "<group>"; };
+		18F63C081F3D3C7400B278D6 /* SearchFlightNoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchFlightNoView.swift; sourceTree = "<group>"; };
+		18F63C0C1F3D9CFA00B278D6 /* LocalFlightInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalFlightInfo.swift; sourceTree = "<group>"; };
+		18F63C0F1F3DAA2800B278D6 /* FlightInfoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightInfoCell.swift; sourceTree = "<group>"; };
+		18F63C101F3DAA2800B278D6 /* FlightInfoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FlightInfoCell.xib; sourceTree = "<group>"; };
+		18F6D69F1F42C42D0038D085 /* FlightDetailInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightDetailInfoView.swift; sourceTree = "<group>"; };
+		18F6D6A21F42C7A00038D085 /* CabinInfoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CabinInfoCell.swift; sourceTree = "<group>"; };
+		18F6D6A41F42DA440038D085 /* ColorWithString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorWithString.swift; sourceTree = "<group>"; };
+		18F6D6A61F42E3520038D085 /* DetailHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailHeader.swift; sourceTree = "<group>"; };
+		18F6D6A81F42F9A20038D085 /* DetailFooter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailFooter.swift; sourceTree = "<group>"; };
+		76DA02D0C72B27E73B1BD9EE /* Pods-ECabin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ECabin.release.xcconfig"; path = "Pods/Target Support Files/Pods-ECabin/Pods-ECabin.release.xcconfig"; sourceTree = "<group>"; };
+		79227AC6922648E5F5264DE1 /* Pods-ECabin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ECabin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ECabin/Pods-ECabin.debug.xcconfig"; sourceTree = "<group>"; };
+		F2064BC94EE2042FE692574E /* Pods_ECabin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ECabin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +123,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAD28CEBBD3C3ED7F734FC32 /* Pods_ECabin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -39,6 +134,8 @@
 			isa = PBXGroup;
 			children = (
 				183B81C51F05DA5A00BF58A0 /* ECabin */,
+				B752D17B4FE132689160EC7F /* Frameworks */,
+				25449448C81867250B58480B /* Pods */,
 				183B81C41F05DA5A00BF58A0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,14 +151,334 @@
 		183B81C51F05DA5A00BF58A0 /* ECabin */ = {
 			isa = PBXGroup;
 			children = (
-				183B81C61F05DA5A00BF58A0 /* AppDelegate.swift */,
-				183B81C81F05DA5A00BF58A0 /* ViewController.swift */,
-				183B81CA1F05DA5A00BF58A0 /* Main.storyboard */,
-				183B81CD1F05DA5A00BF58A0 /* Assets.xcassets */,
-				183B81CF1F05DA5A00BF58A0 /* LaunchScreen.storyboard */,
-				183B81D21F05DA5A00BF58A0 /* Info.plist */,
+				185864381F43DF7D0002FAE1 /* 移动客舱功能表_侧栏 */,
+				189BB3BD1F3C3F7800CB15FB /* 封装类 */,
+				189BB3BC1F3C309900CB15FB /* 桥接文件 */,
+				186E62201F39A6100014FEA1 /* 登录成功之后的菜单 */,
+				186E62191F39A5340014FEA1 /* 航前准备 */,
+				186E621A1F39A5430014FEA1 /* 航班动态 */,
+				186E621B1F39A55F0014FEA1 /* 运行网 */,
+				186E621C1F39A56B0014FEA1 /* 旅客信息 */,
+				186E621D1F39A5760014FEA1 /* 天气预报 */,
+				186E621E1F39A5800014FEA1 /* 资料查询 */,
+				186E621F1F39A5A00014FEA1 /* Config */,
+				183B81DC1F05DBB700BF58A0 /* 登录 */,
+				189BB3B81F3C2B0D00CB15FB /* 系统类 */,
+				189BB3B91F3C2B3800CB15FB /* 准备放弃类 */,
 			);
 			path = ECabin;
+			sourceTree = "<group>";
+		};
+		183B81DC1F05DBB700BF58A0 /* 登录 */ = {
+			isa = PBXGroup;
+			children = (
+				189BB3B21F3BFE6000CB15FB /* 记录是否记住工号数据库 */,
+				189BB3AD1F3BE8C100CB15FB /* 用户数据库 */,
+				183B81D81F05DBA100BF58A0 /* LoginViewController.swift */,
+				183B81D91F05DBA100BF58A0 /* LoginViewController.xib */,
+			);
+			name = "登录";
+			sourceTree = "<group>";
+		};
+		184828761F6A1E6100A3DC80 /* 航班动态次级页面自定义view */ = {
+			isa = PBXGroup;
+			children = (
+				184828771F6A1E9000A3DC80 /* FlightPlanView.swift */,
+				188952381F6A651B00E4DB34 /* FlightDynamicsSecondViewCell.swift */,
+			);
+			name = "航班动态次级页面自定义view";
+			sourceTree = "<group>";
+		};
+		184CC8B21F5CD697008519B5 /* 旅客信息主View */ = {
+			isa = PBXGroup;
+			children = (
+				184CC8B31F5CD724008519B5 /* PassengerofSort.swift */,
+				184CC8B71F5CF176008519B5 /* SectionHeaderView.swift */,
+			);
+			name = "旅客信息主View";
+			sourceTree = "<group>";
+		};
+		1851FC781F6245D10044BF4A /* 座位视图View */ = {
+			isa = PBXGroup;
+			children = (
+				1851FC791F6246DB0044BF4A /* CabinSeatForFour.swift */,
+				1851FC7B1F6247000044BF4A /* CabinSeatForSix.swift */,
+				1851FC7D1F627F350044BF4A /* CabinSeatForFourCell.swift */,
+				1851FC7F1F627F500044BF4A /* CabinSeatForSixCell.swift */,
+				1821FBC21F64E202008B7147 /* PassengerSeatChartView.swift */,
+			);
+			name = "座位视图View";
+			sourceTree = "<group>";
+		};
+		185864381F43DF7D0002FAE1 /* 移动客舱功能表_侧栏 */ = {
+			isa = PBXGroup;
+			children = (
+				185864391F43E3D60002FAE1 /* EcabinFunctionTableView.swift */,
+			);
+			name = "移动客舱功能表_侧栏";
+			sourceTree = "<group>";
+		};
+		1868A7321F6BC67B00413739 /* 航班动态主页面自定义view */ = {
+			isa = PBXGroup;
+			children = (
+				181954041F68C84800F03DB0 /* DisplayDateController.swift */,
+				188385881F666829001AB345 /* FlightDynamicsView.swift */,
+			);
+			name = "航班动态主页面自定义view";
+			sourceTree = "<group>";
+		};
+		186E62191F39A5340014FEA1 /* 航前准备 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "航前准备";
+			sourceTree = "<group>";
+		};
+		186E621A1F39A5430014FEA1 /* 航班动态 */ = {
+			isa = PBXGroup;
+			children = (
+				1868A7321F6BC67B00413739 /* 航班动态主页面自定义view */,
+				184828761F6A1E6100A3DC80 /* 航班动态次级页面自定义view */,
+				184828741F6A148700A3DC80 /* FlightDynamicsSecondView.swift */,
+			);
+			name = "航班动态";
+			sourceTree = "<group>";
+		};
+		186E621B1F39A55F0014FEA1 /* 运行网 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "运行网";
+			sourceTree = "<group>";
+		};
+		186E621C1F39A56B0014FEA1 /* 旅客信息 */ = {
+			isa = PBXGroup;
+			children = (
+				18724DC81F5933D500E380E6 /* CellView */,
+				18724DC71F59304700E380E6 /* Controller */,
+				18724DC41F57F14100E380E6 /* Model */,
+				18F63C071F3D3C0100B278D6 /* View */,
+			);
+			name = "旅客信息";
+			sourceTree = "<group>";
+		};
+		186E621D1F39A5760014FEA1 /* 天气预报 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "天气预报";
+			sourceTree = "<group>";
+		};
+		186E621E1F39A5800014FEA1 /* 资料查询 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "资料查询";
+			sourceTree = "<group>";
+		};
+		186E621F1F39A5A00014FEA1 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+		186E62201F39A6100014FEA1 /* 登录成功之后的菜单 */ = {
+			isa = PBXGroup;
+			children = (
+				186E62211F39A6350014FEA1 /* MenuViewController.swift */,
+				180A77451F283CF300914574 /* ImageTextCell.swift */,
+			);
+			name = "登录成功之后的菜单";
+			sourceTree = "<group>";
+		};
+		18724DC41F57F14100E380E6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18724DC51F57F21C00E380E6 /* Passenger.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		18724DC71F59304700E380E6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				189BB3BA1F3C2FCF00CB15FB /* PassengerInfoViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		18724DC81F5933D500E380E6 /* CellView */ = {
+			isa = PBXGroup;
+			children = (
+				18724DC91F59344100E380E6 /* PassengerCell.swift */,
+			);
+			name = CellView;
+			sourceTree = "<group>";
+		};
+		189BB3AD1F3BE8C100CB15FB /* 用户数据库 */ = {
+			isa = PBXGroup;
+			children = (
+				189BB3B51F3C0EEE00CB15FB /* MD5Tool.swift */,
+				189BB3AE1F3BE96100CB15FB /* UserManger.swift */,
+				189BB3B01F3BE97E00CB15FB /* User.swift */,
+			);
+			name = "用户数据库";
+			sourceTree = "<group>";
+		};
+		189BB3B21F3BFE6000CB15FB /* 记录是否记住工号数据库 */ = {
+			isa = PBXGroup;
+			children = (
+				189BB3B31F3BFEA000CB15FB /* Remember.swift */,
+			);
+			name = "记录是否记住工号数据库";
+			sourceTree = "<group>";
+		};
+		189BB3B81F3C2B0D00CB15FB /* 系统类 */ = {
+			isa = PBXGroup;
+			children = (
+				183B81D21F05DA5A00BF58A0 /* Info.plist */,
+				183B81CF1F05DA5A00BF58A0 /* LaunchScreen.storyboard */,
+				183B81CD1F05DA5A00BF58A0 /* Assets.xcassets */,
+				183B81CA1F05DA5A00BF58A0 /* Main.storyboard */,
+				183B81C61F05DA5A00BF58A0 /* AppDelegate.swift */,
+			);
+			name = "系统类";
+			sourceTree = "<group>";
+		};
+		189BB3B91F3C2B3800CB15FB /* 准备放弃类 */ = {
+			isa = PBXGroup;
+			children = (
+				180A77431F283C5D00914574 /* LineLayout.swift */,
+			);
+			name = "准备放弃类";
+			sourceTree = "<group>";
+		};
+		189BB3BC1F3C309900CB15FB /* 桥接文件 */ = {
+			isa = PBXGroup;
+			children = (
+				189BB3B71F3C108C00CB15FB /* bridgeHeader.h */,
+			);
+			name = "桥接文件";
+			sourceTree = "<group>";
+		};
+		189BB3BD1F3C3F7800CB15FB /* 封装类 */ = {
+			isa = PBXGroup;
+			children = (
+				18F6D6A41F42DA440038D085 /* ColorWithString.swift */,
+				1858643D1F443A360002FAE1 /* LeeButton.swift */,
+				189BB3BE1F3C3F8B00CB15FB /* NetWorkState.swift */,
+			);
+			name = "封装类";
+			sourceTree = "<group>";
+		};
+		18A814261F5E52520084A825 /* 旅客信息次View */ = {
+			isa = PBXGroup;
+			children = (
+				1851FC781F6245D10044BF4A /* 座位视图View */,
+				18A8142D1F5E8E3E0084A825 /* PassengerDetailInfoView.swift */,
+				1842E3491F61292100BE5E1C /* PassengerVotageViewController.swift */,
+				18A8142A1F5E80350084A825 /* 高端旅客的乘客列表View以及cell */,
+				18A814271F5E52880084A825 /* 展示航班号日期航段的View */,
+			);
+			name = "旅客信息次View";
+			sourceTree = "<group>";
+		};
+		18A814271F5E52880084A825 /* 展示航班号日期航段的View */ = {
+			isa = PBXGroup;
+			children = (
+				18A814281F5E52E90084A825 /* FlightInfoView.swift */,
+			);
+			name = "展示航班号日期航段的View";
+			sourceTree = "<group>";
+		};
+		18A8142A1F5E80350084A825 /* 高端旅客的乘客列表View以及cell */ = {
+			isa = PBXGroup;
+			children = (
+				18A8142B1F5E80980084A825 /* HighEndHeader.swift */,
+				183C2C091F5FA0FD00FC9547 /* HighEndPassengerCell.swift */,
+				1842E3471F60F39800BE5E1C /* HIghtEndPassengerView.swift */,
+			);
+			name = "高端旅客的乘客列表View以及cell";
+			sourceTree = "<group>";
+		};
+		18F63C071F3D3C0100B278D6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				184CC8B21F5CD697008519B5 /* 旅客信息主View */,
+				18A814261F5E52520084A825 /* 旅客信息次View */,
+				18F6D69E1F42C2350038D085 /* 航班信息表自定义view */,
+				18F63C0E1F3DA9BC00B278D6 /* 本地航班Cell */,
+				18F63C0B1F3D9CD500B278D6 /* 本地View */,
+				18F63C0A1F3D9CC600B278D6 /* 搜索View */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		18F63C0A1F3D9CC600B278D6 /* 搜索View */ = {
+			isa = PBXGroup;
+			children = (
+				18F63C081F3D3C7400B278D6 /* SearchFlightNoView.swift */,
+			);
+			name = "搜索View";
+			sourceTree = "<group>";
+		};
+		18F63C0B1F3D9CD500B278D6 /* 本地View */ = {
+			isa = PBXGroup;
+			children = (
+				18F63C0C1F3D9CFA00B278D6 /* LocalFlightInfo.swift */,
+			);
+			name = "本地View";
+			sourceTree = "<group>";
+		};
+		18F63C0E1F3DA9BC00B278D6 /* 本地航班Cell */ = {
+			isa = PBXGroup;
+			children = (
+				18F63C0F1F3DAA2800B278D6 /* FlightInfoCell.swift */,
+				18F63C101F3DAA2800B278D6 /* FlightInfoCell.xib */,
+				186665091F41B69500EC411C /* HeaderView.swift */,
+				184CC8B51F5CD808008519B5 /* PassengerSortCell.swift */,
+			);
+			name = "本地航班Cell";
+			sourceTree = "<group>";
+		};
+		18F6D69E1F42C2350038D085 /* 航班信息表自定义view */ = {
+			isa = PBXGroup;
+			children = (
+				18F6D6A11F42C73B0038D085 /* 自定义的cell */,
+				18F6D69F1F42C42D0038D085 /* FlightDetailInfoView.swift */,
+			);
+			name = "航班信息表自定义view";
+			sourceTree = "<group>";
+		};
+		18F6D6A11F42C73B0038D085 /* 自定义的cell */ = {
+			isa = PBXGroup;
+			children = (
+				18F6D6A21F42C7A00038D085 /* CabinInfoCell.swift */,
+				18F6D6A61F42E3520038D085 /* DetailHeader.swift */,
+				18F6D6A81F42F9A20038D085 /* DetailFooter.swift */,
+			);
+			name = "自定义的cell";
+			sourceTree = "<group>";
+		};
+		25449448C81867250B58480B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				79227AC6922648E5F5264DE1 /* Pods-ECabin.debug.xcconfig */,
+				76DA02D0C72B27E73B1BD9EE /* Pods-ECabin.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B752D17B4FE132689160EC7F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				189E55FB1F6FD16000028634 /* Security.framework */,
+				189E55E31F6FB88F00028634 /* libsqlite3.tbd */,
+				189E55E11F6FB88400028634 /* libsqlite3.0.tbd */,
+				F2064BC94EE2042FE692574E /* Pods_ECabin.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +488,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 183B81D51F05DA5A00BF58A0 /* Build configuration list for PBXNativeTarget "ECabin" */;
 			buildPhases = (
+				CE880E0747B1FEBAD20A5C1C /* [CP] Check Pods Manifest.lock */,
 				183B81BF1F05DA5A00BF58A0 /* Sources */,
 				183B81C01F05DA5A00BF58A0 /* Frameworks */,
 				183B81C11F05DA5A00BF58A0 /* Resources */,
+				5FCC8E16D579E3EB992BCEE3 /* [CP] Embed Pods Frameworks */,
+				E340E2BD60F4EA7D9A21496F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,21 +544,112 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				183B81DB1F05DBA100BF58A0 /* LoginViewController.xib in Resources */,
 				183B81D11F05DA5A00BF58A0 /* LaunchScreen.storyboard in Resources */,
 				183B81CE1F05DA5A00BF58A0 /* Assets.xcassets in Resources */,
 				183B81CC1F05DA5A00BF58A0 /* Main.storyboard in Resources */,
+				18F63C121F3DAA2800B278D6 /* FlightInfoCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5FCC8E16D579E3EB992BCEE3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ECabin/Pods-ECabin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE880E0747B1FEBAD20A5C1C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E340E2BD60F4EA7D9A21496F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ECabin/Pods-ECabin-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		183B81BF1F05DA5A00BF58A0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				183B81C91F05DA5A00BF58A0 /* ViewController.swift in Sources */,
+				189BB3B61F3C0EEE00CB15FB /* MD5Tool.swift in Sources */,
+				186E62221F39A6350014FEA1 /* MenuViewController.swift in Sources */,
+				18724DC61F57F21C00E380E6 /* Passenger.swift in Sources */,
+				18F6D6A71F42E3520038D085 /* DetailHeader.swift in Sources */,
+				18F6D6A91F42F9A20038D085 /* DetailFooter.swift in Sources */,
+				189BB3AF1F3BE96100CB15FB /* UserManger.swift in Sources */,
+				18F63C091F3D3C7400B278D6 /* SearchFlightNoView.swift in Sources */,
+				189BB3B41F3BFEA000CB15FB /* Remember.swift in Sources */,
+				184828751F6A148700A3DC80 /* FlightDynamicsSecondView.swift in Sources */,
+				1858643A1F43E3D60002FAE1 /* EcabinFunctionTableView.swift in Sources */,
+				184CC8B41F5CD724008519B5 /* PassengerofSort.swift in Sources */,
+				18F63C0D1F3D9CFA00B278D6 /* LocalFlightInfo.swift in Sources */,
+				184CC8B81F5CF176008519B5 /* SectionHeaderView.swift in Sources */,
+				18F6D6A51F42DA440038D085 /* ColorWithString.swift in Sources */,
+				1851FC7C1F6247000044BF4A /* CabinSeatForSix.swift in Sources */,
+				1858643E1F443A360002FAE1 /* LeeButton.swift in Sources */,
+				183B81DA1F05DBA100BF58A0 /* LoginViewController.swift in Sources */,
+				188952391F6A651B00E4DB34 /* FlightDynamicsSecondViewCell.swift in Sources */,
+				18A8142C1F5E80980084A825 /* HighEndHeader.swift in Sources */,
+				1851FC7E1F627F350044BF4A /* CabinSeatForFourCell.swift in Sources */,
+				18724DCA1F59344100E380E6 /* PassengerCell.swift in Sources */,
+				189BB3B11F3BE97E00CB15FB /* User.swift in Sources */,
+				1851FC801F627F500044BF4A /* CabinSeatForSixCell.swift in Sources */,
+				180A77441F283C5D00914574 /* LineLayout.swift in Sources */,
+				181954051F68C84800F03DB0 /* DisplayDateController.swift in Sources */,
+				184828781F6A1E9000A3DC80 /* FlightPlanView.swift in Sources */,
+				1842E3481F60F39800BE5E1C /* HIghtEndPassengerView.swift in Sources */,
+				183C2C0A1F5FA0FD00FC9547 /* HighEndPassengerCell.swift in Sources */,
+				18F63C111F3DAA2800B278D6 /* FlightInfoCell.swift in Sources */,
+				18A8142E1F5E8E3E0084A825 /* PassengerDetailInfoView.swift in Sources */,
+				189BB3BB1F3C2FCF00CB15FB /* PassengerInfoViewController.swift in Sources */,
+				188385891F666829001AB345 /* FlightDynamicsView.swift in Sources */,
+				18F6D6A31F42C7A00038D085 /* CabinInfoCell.swift in Sources */,
+				18A814291F5E52E90084A825 /* FlightInfoView.swift in Sources */,
+				180A77461F283CF300914574 /* ImageTextCell.swift in Sources */,
+				184CC8B61F5CD808008519B5 /* PassengerSortCell.swift in Sources */,
+				189BB3BF1F3C3F8B00CB15FB /* NetWorkState.swift in Sources */,
+				18F6D6A01F42C42D0038D085 /* FlightDetailInfoView.swift in Sources */,
+				1842E34A1F61292100BE5E1C /* PassengerVotageViewController.swift in Sources */,
 				183B81C71F05DA5A00BF58A0 /* AppDelegate.swift in Sources */,
+				1866650A1F41B69500EC411C /* HeaderView.swift in Sources */,
+				1821FBC31F64E202008B7147 /* PassengerSeatChartView.swift in Sources */,
+				1851FC7A1F6246DB0044BF4A /* CabinSeatForFour.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,26 +772,38 @@
 		};
 		183B81D61F05DA5A00BF58A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79227AC6922648E5F5264DE1 /* Pods-ECabin.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = FPQGV2M853;
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = ECabin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.QDAirlines.ECabin;
+				OTHER_CFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ECabin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "${SRCROOT}/bridgeHeader.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		183B81D71F05DA5A00BF58A0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76DA02D0C72B27E73B1BD9EE /* Pods-ECabin.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = FPQGV2M853;
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = ECabin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.QDAirlines.ECabin;
+				OTHER_CFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ECabin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "${SRCROOT}/bridgeHeader.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -304,6 +827,7 @@
 				183B81D71F05DA5A00BF58A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

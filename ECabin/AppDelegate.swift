@@ -7,15 +7,36 @@
 //
 
 import UIKit
+import IQKeyboardManagerSwift
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
+    func application(_ application: UIApplication, willFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey : Any]? = nil) -> Bool {
+        UserManger.defaultManger.createTable()
+        RememberManger.defaultManger.createTable()
+        if RememberManger.defaultManger.selectAll().count == 0{
+            let remember = Remember()
+            remember.rememberState = false
+            RememberManger.defaultManger.insert(model: remember)
+        }
+        return true
+    }
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        IQKeyboardManager.sharedManager().enable = true
+        IQKeyboardManager.sharedManager().shouldResignOnTouchOutside = true
+        self.window = UIWindow.init(frame:CGRect.init(x: 0, y: 20, width:UIScreen.main.bounds.width, height: UIScreen.main.bounds.height-20))
+//        self.window = UIWindow.init(frame: UIScreen.main.bounds)
+        UIApplication.shared.statusBarStyle = .lightContent
+        self.window?.backgroundColor = UIColor.white
+        self.window?.makeKeyAndVisible()
+        let vc = LoginViewController()
+        let nav = UINavigationController.init(rootViewController: vc)
+        nav.navigationBar.isHidden = true
+        self.window?.rootViewController = nav
         return true
     }
 
@@ -27,6 +48,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationDidEnterBackground(_ application: UIApplication) {
         // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
         // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
+        
     }
 
     func applicationWillEnterForeground(_ application: UIApplication) {
